@@ -1,0 +1,48 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:30px 120px;
+    color: aliceblue;
+}
+
+.nav-logo {
+    font-family: 'Outfit', sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 18px;
+    gap: 60px; /* Reduced gap for better responsiveness */
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-contact {
+    border-radius: 50px;
+    padding: 10px 38px;
+    background: #fff;
+    color: black;
+    transition: background 0.3s ease, transform 0.3s ease; 
+}
+
+.nav-contact:hover {
+    opacity: 0.9;
+    background: #fcbd7d;
+    transform: scale(1.08); /* Slight increase for hover effect */
+    cursor: pointer;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+    .nav-menu {
+        gap: 30px; /* Reduce gap for smaller screens */
+    }
+
+    .nav-logo {
+        font-size: 32px; /* Slightly smaller logo on smaller screens */
+    }
+}

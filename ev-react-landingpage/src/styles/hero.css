@@ -1,0 +1,69 @@
+.hero {
+    margin: 0 auto;
+    margin-top: 12vh; /* Use viewport height to be more responsive */
+    padding: 0 8vw; /* Add padding for some breathing room */
+   
+    width: 90vw; /* Ensure it doesn’t take too much space */
+}
+
+.hero-text {
+    color: #FFF;
+    font-size: 6.4vw; /* Make font-size responsive */
+    font-weight: 500;
+    line-height: 1.2; /* Adjust line-height for consistency */
+}
+
+.hero-explore {
+    display: flex;
+    align-items: center;
+    gap: 2vw; /* Use relative units for gaps */
+    width: fit-content;
+    margin-top: 5vh; /* Use viewport height for spacing */
+    padding: 0.5rem 1rem; /* Use rem for padding */
+    padding-left: 2rem;
+    border-radius: 60px;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+.hero-explore p {
+    color: #292929;
+    font-size: 1.25rem; /* Use rem for text sizes */
+    font-weight: 500;
+}
+
+.hero-dot-play {
+    margin-top: 8vh; /* Use relative margin for better scaling */
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-dots {
+    display: flex;
+    align-items: center;
+    gap: 1.5vw; /* Use relative gap */
+    list-style: none;
+}
+
+.hero-dot {
+    width: 1rem; /* Use rem for consistency */
+    height: 1rem;
+    background: #FFF;
+    border-radius: 50%; /* Simplify to 50% for round dots */
+    cursor: pointer;
+}
+
+.hero-dot.hero-dot-active {
+    background: orangered;
+}
+
+.hero-play {
+    display: flex;
+    align-items: center;
+    gap: 2vw; /* Use relative gap */
+}
+
+.hero-play p {
+    color: #FFF;
+    font-size: 1.25rem; /* Use rem for font-size */
+}
